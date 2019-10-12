@@ -1,3 +1,2 @@
 The source code can also be downloaded from the following: https://www.pyimagesearch.com/2018/11/12/yolo-object-detection-with-opencv/
-The only part I modified are: Input image, cfg, names, and weights
-This is the only part you need to modify if you want to tailor this to your need
+The only parts that needs to be modified to create a custom model are: Input image(s), cfg, names, and weights
