@@ -1,3 +1,7 @@
+#this file is literally copied & pasted from https://www.pyimagesearch.com/2017/07/24/bank-check-ocr-with-opencv-and-python-part-i/
+#the purpose of this file is to break the previously selected area (by Yolov3) into unique characters
+#the list of characters will then feed into a python file to be recognized/read individually by the Caffe's MNIST network
+
 from skimage.segmentation import clear_border
 from imutils import contours
 import numpy as np
